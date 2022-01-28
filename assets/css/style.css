@@ -1,0 +1,187 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #0f2656;
+
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #0f2656;
+}
+img {
+  width: 100%;
+}
+h1,
+h2 {
+  letter-spacing: 0.15rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #668599;
+  font-weight: 300;
+}
+.container {
+  width: 90%;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* Header Starts */
+header {
+  border-bottom: 2px solid #dfdbdb;
+}
+.logo {
+  width: 8%;
+
+  float: left;
+}
+.menu {
+  float: right;
+  width: 45%;
+
+  margin-top: 3px;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: inline-block;
+  margin: 0.8rem 1.5rem;
+}
+.menu ul li a:hover {
+  color: #465983;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+/* Header Ends */
+/* hero starts */
+.container-hero {
+  width: 55%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hero-info {
+  text-align: center;
+  margin: 4.5rem auto;
+}
+.hero-info h2 {
+  color: #008aff;
+}
+.hero-img {
+  width: 65%;
+  margin: 0 auto;
+}
+/* hero ends */
+/* section success */
+.container-success {
+  width: 50%;
+  margin: 10rem auto;
+  overflow: hidden;
+}
+.three-k {
+  max-width: 32rem;
+  float: left;
+  text-align: right;
+  margin: 0 auto;
+}
+.three-k h1 {
+  color: #dd4e4e;
+}
+.success {
+  float: right;
+  max-width: 40rem;
+  text-align: left;
+  margin: 0 auto;
+}
+/* success end */
+/* section Card */
+/* first-card:#fdebed
+second card:#ebf9f4
+third card :#fff7e8
+*/
+.container-card {
+  width: 90%;
+  margin: 10rem auto;
+  overflow: hidden;
+}
+.card {
+  width: 28%;
+  overflow: hidden;
+  margin-right: 6rem;
+}
+.card img {
+  height: 350px;
+  object-fit: contain;
+}
+.card-body {
+  padding: 5px 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 20px 0px;
+}
+
+.card-text {
+  font-size: 20px;
+  line-height: 1.6;
+}
+.card-1 {
+  float: left;
+  background: #fdebed;
+}
+.card-2 {
+  float: left;
+  background: #ebf9f4;
+  margin-left: 1rem;
+}
+.card-3 {
+  float: right;
+  background: #fff7e8;
+}
+
+/* Ends of section card */
+/* Footer */
+footer {
+  width: 100%;
+  height: 9rem;
+  background: #008aff;
+  text-align: center;
+}
+footer p {
+  padding: 3rem;
+  color: #cbd7df;
+}
+footer span {
+  letter-spacing: 0.35rem;
+  color: #fff;
+}
