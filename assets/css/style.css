@@ -140,11 +140,11 @@ third card :#fff7e8
   padding: 2rem;
 }
 .card img {
-  height: 350px;
-  object-fit: contain;
+  height: 250px;
+  object-fit: cover;
 }
 .card-body {
-  padding: 5px 20px;
+  padding: 5px 10px;
 }
 
 .card-title {
