@@ -63,7 +63,7 @@ header {
   float: right;
   width: 45%;
 
-  margin-top: 3px;
+  padding: 1rem;
 }
 .menu ul {
   float: right;
